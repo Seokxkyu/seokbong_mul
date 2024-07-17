@@ -6,6 +6,6 @@ def mul():
     print(first_num * second_num)
 
 def seokbong_mul():
-    a = int(sys.arg[1])
-    b = int(sys.arg[2])
+    a = int(sys.argv[1])
+    b = int(sys.argv[2])
     print(a * b)
